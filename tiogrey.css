@@ -1,0 +1,107 @@
+body
+{ color: skyblue;
+background: linear-gradient(to bottom, #32527B, #0A0A0A);
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul 
+{ display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  padding: 15px;
+}
+a 
+{color: white;
+  text-decoration: underline cyan;
+}
+.centro img 
+{width: 150px;
+  height: 150px; 
+  border-radius: 45%;
+  border: 5px solid #4682B4;
+}
+.centro 
+ {
+  text-align: center;
+}
+.tituloacima
+ {
+  text-align: center;
+  color: cadetblue;
+}
+p 
+ {
+   text-align: center;
+  text-align: justify;
+}
+.subtexto 
+ {
+ text-align: center;
+ justify-content: space-between;
+ align-items: center;
+ color: dodgerblue;
+}
+.info
+{
+  display: flex;
+}
+.imagemesq img
+{
+  width: 180px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+.colunadasilva
+{
+  text-align: justify;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: cornflowerblue;
+}
+.colunadasilva img
+{
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+  border: none !important; 
+  outline: none;
+  background: transparent;
+  border-radius: 0;
+}
+.texto2 
+{
+  text-align: justify;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: cornflowerblue;
+}
+
+.prod
+{
+  display: flex;
+  flex-direction: column;
+}
+.imagemprod 
+{
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+.descproduto
+{
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 10px;
+  margin-bottom:10px;
+}
+.produto 
+{
+  display: flex;
+  align-items: flex-start
+  gap: 15px; 
+}
